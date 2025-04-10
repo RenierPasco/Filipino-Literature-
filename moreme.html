@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+
+    body{
+        background: linear-gradient(to left, aliceblue, #0c0c0c); 
+    }
+
+     p{
+        margin-top: 10em;
+      margin-left: 22em;
+      margin-right: 25em;
+      font-size: 1.2em;
+      color: #0c0c0c;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 2em;
+
+ 
+      animation-name: scalep ;
+      animation-duration: 2s;
+     }
+   
+  
+    @keyframes scalep {
+       from{
+         opacity: 0;
+
+         scale: 0.5;
+       }
+
+       to{
+
+        opacity: 1;
+
+        scale: 1;
+       }
+    }
+
+    .skill{
+        width: 90%;
+        height: 800px;
+        gap:50px;
+        flex-wrap: wrap;
+       
+        margin-left: 5em;
+        
+    }
+
+
+   h2{
+    font-size: 4.6em;
+    text-align: center;
+
+    
+   }
+
+   .ccon{
+    margin-top: 8em;
+   }
+   .skill img{
+      width: 80%;
+      height: 300px;
+      
+    }
+
+    .ccon:hover img{
+      width: 100%;
+      box-shadow: 10px 10px 20px aliceblue;
+      border-radius: 10px;
+      
+    }
+    
+
+   .skill .ccon{
+    display: inline-block;
+    width: 20%;
+
+   }
+
+   .ccon:hover .desc{
+    display: block;
+   }
+
+   .desc{
+        display: none;
+        width: auto;
+        border: 1px solid white;
+        background-color: #0c0c0c;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-right: 1em;
+        margin-left: 20px;
+        margin-top: 0;
+        text-align: center;
+    
+     }
+
+     .container{
+      
+      text-align: center;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      margin-left: 5em;
+     }
+    
+
+     h2:hover{
+     text-shadow: 10px 10px 20px aliceblue;;
+     }
+
+  
+
+   </style>
+
+
+
+</head>
+
+
+
+
+<body>
+    
+    
+    <p>
+        Sa ngayon masasabi kong medyo knowledgeable na ako sa pagcocode, hindi pa man ganun kalimlim yung kaalaman ko, but I'm happy sa skill and knowledge na meron ako ngayon sa pagcocode. By God's Grace nakagawa nako ng "Grading System", "Enrollment System", " Computing NetSalary (where the user enter their salary, then it automatically deducted the Tax, SSS, philhealth) but its console based, meaning text support lang siya, hindi siya GUI. But now by God's Grace, kaya ko na rin gumawa ng system na windowed application, meaning gumagamit na ko ng GUI, nakagawa ko "Loan System", and lastly na ginawa namin is "E-commerce Inventory (CRUD) That Connects To The Database", ito medyo mahirap dahil kung ano yung gagawin ni user like for example mag-aadd siya ng product, dapat directly mapupunta yun sa database, then kung i-dedelete niya yung product nayun, dapat wala narin yung sa database. By God's Grace nakagawa to. And now kaya ko na rin gumawa ng website, medyo knowledgeable narin ako sa HTML and CSS. All of this is only by the grace of God, sa tulong ng diyos na pag tagumpayan at nagawa ko yung mga pinapagawa ng aming professor, especially yung mahihirap na pinapagawa samin, resulting na mas mag-improve pa yung skill and knowledge ko sa pagcocode. Yung programming language na alam ko: C language, Java, MySQL, HTML and CSS. Aside from programming skill, medyo knowledgeable din ako sa Visual Graphic Design skill, medyo kaya kong gumawa ng logo, and promotion materials like Banner, Poster, etc. using Adobe Photoshop and Adobe Illustrator.
+    </p>
+
+    <br><br><br><br><br><br><br><br><br>
+     
+
+    <h2 > Programming Languange That I Know</h2>
+    <div class="skill">
+      <div class="container">
+      <div class="ccon">
+      <a href="https://www.w3schools.com/c/c_intro.php" target="_blank">
+      <img src="images/clang.png">
+      </a>
+      <p class="desc">C Languange</p>
+      </div>
+      
+      <div class="ccon">
+      <a href="https://www.w3schools.com/html/" target="_blank">
+      <img src="images/html.png">
+      </a>
+      <p class="desc">HTML</p>
+      </div>
+      
+      <div class="ccon">
+      <a href="https://www.w3schools.com/css/" target="_blank">
+      <img src="images/css.png" id="css">
+      </a>
+      <p class="desc">CSS</p>
+      </div>
+
+      <div class="ccon">
+        <a href="https://www.w3schools.com/java/" target="_blank">
+        <img src="images/java.png">
+        </a>
+        <p class="desc">JAVA</p>
+        </div>
+
+      <div class="ccon">
+      <a href="https://www.w3schools.com/sql/" target="_blank">
+      <img src="images/sql.png">
+     </a>
+      <p class="desc">MySQL</p>
+      </div>
+  
+    </div>
+    </div>
+</body>
+</html>

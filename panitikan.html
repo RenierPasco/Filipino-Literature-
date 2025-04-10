@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+
+      body{
+
+      background-color: aliceblue;
+      } 
+
+
+     p{
+        margin-left: 10em;
+        margin-right: 10em;
+        line-height: 1.6;
+        font-size: 1.5em;
+        color: #0c0c0c;
+        
+     }
+
+
+     .imgcon{
+        width: 80%;
+        height: 900px;
+        margin-top: 17em;
+        margin-left: 10em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+     }
+
+     .imgcon img{
+        width: 80%;
+        height: 300px;
+        border-radius: 20px;
+        
+     }
+
+     .con:hover img{
+        border: 6px inset lightblue;
+        width: 90%;
+     }
+
+     .con img:active{
+      opacity: 0.8;
+     }
+
+    .con{
+        width: 26%;
+        display: inline-block;
+        text-align: center;
+       
+     }
+
+
+     .desc{
+        display: none;
+        width: auto;
+        border: 1px solid white;
+        background-color: #0c0c0c;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-right: 1em;
+        margin-left: 20px;
+        margin-top: 0;
+        text-align: center;
+    
+        
+        
+     }
+
+     .con:hover .desc{
+        display: block;
+        
+     }
+
+   .topic h2{
+      font-size: 6em;
+      
+
+   }
+
+   .topic{
+      
+      display: inline-block;
+      margin-top: 0;
+      margin-left: 16em;
+
+      animation-name: slideleft;
+      animation-duration: 1.9s;
+      
+   }
+
+   @keyframes slideleft {
+      from{transform:translateX(-300px)}
+      
+   }
+
+   .topicpan{
+      display: inline-block;
+      width: 50%;
+      margin-left: 10em;
+
+      animation-name: slidedown;
+      animation-duration: 1.9s;
+   }
+
+   @keyframes slidedown{
+      from{transform:translateY(-300px)}
+      
+   }
+
+   .topicpan img{
+      width: 90%;
+      height: 600px;
+      border-radius: 100px;
+   }
+
+   .baybayin {
+      margin-left: 5em;
+      margin-right: 5em;
+     
+   }
+
+   .baybayin p{
+      line-height: 2;
+   }
+
+   .bay{
+      font-size: 5em;
+      text-align: center;
+   }
+
+   .panitikan{
+      border: 1px solid black;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      
+   }
+
+   .baycon{
+      width: 90%;
+      height: 800px;
+      margin-top: 0px;
+      margin-left: 5em;
+     
+      display: flex;
+      justify-content: center;
+      align-items: self-start;
+      column-gap: 5em;
+   }
+
+   
+   .baycon img{
+      border-radius: 20px;
+   }
+
+   .tutorial{
+      width: 30%;
+      height: 500px;
+      display: inline-block;
+
+      animation-name: slideleft;
+      animation-duration: 2s;
+     
+   }
+
+
+
+   .tutorial img{
+      width: 100%;
+     height: 500px;
+   }
+   
+
+
+   .bayimg{
+      width: 30%;
+      height: 500px;
+      
+      display: inline-block;
+
+      animation-name: slideright;
+      animation-duration: 2s;
+   }
+
+   @keyframes slideright {
+      from{transform: translateX(300px);}
+      
+   }
+
+   .bayimg img{
+     width: 100%;
+     height: 500px;
+   }
+
+   .ds{
+      display: none;
+      font-size: 1.7em;
+      text-align: center;
+      margin-left: -1px;
+      width: 100%;
+      background-color: #0c0c0c;
+      color: aliceblue;
+      margin-top: 0;
+      border-radius: 10px;
+      
+   }
+
+   .tutorial:hover p{
+      display:inline-block;
+   }
+   
+   .bayimg:hover p{
+      display:inline-block;
+   }
+
+   .tutorial:hover img{
+      border: 4px solid hsl(0, 0%, 0%);
+      box-shadow: 5px 5px 20px rgb(58, 59, 59);
+   }
+
+   .tutorial:active img{
+      opacity: 0.8;
+   }
+
+   .bayimg:active img{
+      opacity: 0.8;
+   }
+
+   .bayimg:hover img{
+      border: 4px solid hsl(0, 0%, 0%);
+      box-shadow: 5px 5px 20px rgb(58, 59, 59);
+   }
+   
+
+   </style>
+
+
+
+
+
+</head>
+<body>
+    <br><br><br><br><br><br><br><br>
+    <div class="panitikan">
+    <div class="topic">
+    <h2>
+      Panitikan
+    </h2>
+   </div>
+
+   <div class="topicpan">
+      <img src="images/topicpan.jpg">
+   </div>
+</div>
+
+<br><br><br><br><br><br><br>
+
+     <p>
+        Panitikan ang tawag natin sa lahat ng uri ng pahayag—nakasulat man ito,binibigkas o kahit ipinahihiwatig lang ng aksyon ngunit may takdang anyo o pormakatulad ng tula, maikling kwento, dula, nobela at sanaysay. Nakikilala natin na angisang pahayag ay may katangiang pampanitikan kapag ito ay may anyo atgumagamit ng wikang sinadyangng bigyang-anyo bilang pahayag.Ang totoo, Lahat ng pantikan magmula pa sa sinaunang panahon hanggangngayon ay mauugat pa sa paggamit ng wika. Nang matutong magsalita ang tao atbuuin niya ang karanasan sa bisa ng pagbigkas at pagsulat, nagkaroon ngpanitikan. Nang likumin ng tao ang kanyang mga gunita at nagkaroon ngsistematikong paraan ng pagsulat at pagbasa, nakalikha ng mga teksto. Sa pag-unlad ng teknolohiya ng komunikasyon, nagawang maiparating sa iba ang ganitongmga teksto. Ang imbensyon ng panitikan sa gayon, ay kaakibat ng pagpapalaganapat pag-unlad ng wika o, ng kahit anumang wika.
+(Santiago, Lilia Q.
+Mga panitikan ng Pilipinas
+.C & E Publishing House.Quezon City.2007)
+     </p>
+      
+
+
+     <br><br>
+     <p>
+        Ano ang panitikan?
+        <br><br>
+Nanggaling ang salitang
+ panitikan
+mula sa
+‘pang|titik|an’ 
+, kung saan ikinabitang unlaping
+ pang-
+at hulaping
+-an
+sa ugat na
+titik 
+. Ang may-bahid kanluraningsalitang
+literatura
+ang isa pang katawagan para sa larangan ng panitikan.Nagmula ang salitang
+literatura
+sa salitangLatin-
+littera
+- na nangangahulugang"titik".
+     </p>
+
+     <p>
+        ito ay talaan ng buhay. Nagpapahayag ng damdamin at karanasan ng isang bansa na nasusulat namakahulugan, maganda at masining na paglalahad. Masasalamin ito ayon sa ideya,damdamin at isipan ng tao tulad ng pag-ibig, kaligayahan, kalungkutan, galit,pagka-awa, paghihiganti at iba pa.Nagsasalaysay ng buhay, pamumuhay, lipunan, pamahalaan,pananampalataya at mga karanasang kaugnay ng iba't ibang uri ng damdamingtulad ng pag-ibig, kaligayahan, kalungkutan, pag-asa, pagkapoot, paghihiganti,pagkasuklam, sindak at pangamba.Ang kasaysayan ng panitikan ay nahahalintulad sa kasaysayan ng isangbagay lahi o bansa.
+     </p>
+     
+     <br><br>
+     
+      <div class="imgcon">
+         
+         <div class="con">
+         <a href="https://www.youtube.com/results?search_query=iba%27t+ibang+alamat" target="_blank">
+         <img src="images/alamat.jpg">
+         </a>
+         <p class="desc">Alamat</p>
+         </div>
+
+         <div class="con">
+         <a href="https://www.youtube.com/results?search_query=anekdota" target="_blank">
+         <img src="images/anekdota.jpg">
+         </a>
+         <p class="desc">Anekdota</p>
+         </div>
+
+         <div class="con">
+         <a href="https://www.youtube.com/results?search_query=halimbawa+ng+nobela" target="_blank">
+         <img src="images/nobela.jpg">
+         </a>
+         <p class="desc">Nobela</p>
+         </div>
+
+         <div class="con">
+         <a href="https://www.youtube.com/results?search_query=halimbawa+ng+pabula" target="_blank">
+         <img src="images/pabula.jpg">
+         </a>
+         <p class="desc">Pabula</p>
+         </div>
+
+         <div class="con">
+          <a href="https://www.youtube.com/results?search_query=halimbawa+ng+parabula" target="_blank">
+         <img src="images/parabula.jpg">
+         </a>  
+         <p class="desc">Parabula</p>
+         </div>
+
+         <div class="con">
+         <a href="https://www.youtube.com/results?search_query=halimbawa+ng+dula" target="_blank">
+         <img src="images/dula.jpg">
+          </a>  
+         <p class="desc">Dula</p>
+         </div>
+
+
+
+      </div>
+      
+      <br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br>
+      
+
+      <div>
+         <h2 class="bay">
+            Baybayin
+         </h2>
+      </div>
+
+      <div class="baybayin">
+
+
+         <br><br>
+
+
+      <p>
+         Ang ibig sabihin ng “Baybayin” ay isang coastline sa dagat o alpabeto, galing ito sa salitang ugat na “baybay” o “to trace.” Hindi alpabeto ang Baybayin , pero kagaya ng ibang iskrip sa timog-silangang asya, Abugida ang Baybayin (“Tagalog” n.d.). Ang ibig sabihin nito ay mayroong isang katinig at isang patinig sa bawat isang titik sa iskrip. Halimbawa, ginawa ang ”ka” ng , hindi lang k o a. Bawat isang titik ay may A sa patinig, pero pwedeng baguhin ang patinig sa pagdadagdag ng isang tanda na tinatawag na ”kudlit” (Morrow 2010). Pwedeng idagdag ang kudlit sa itaas o sa ibaba ng isang titik. Mayroong dalawang patinig sa bawat isang posisyon sa kudlit. Sa itaas ng titik, inilalagay ang “e o i” ( pwedeng ke o ki), at saka sa baba ng titik nakalagay ang “o o u” ( pwedeng ko o ku) (Morrow 2010). Mayroon ding patinig na nag-iisa, nilalagay ang mga ito sa harapan ng salita o pantig. Sinusulat ang Baybayin sa kaliwa hanggang kanan, at saka sa tuktok hanggang sa ilalim. Walang puwang o bantas ang baybayin, maliban nalang sa dalawang linya ( || ), kunf saan pwedeng gamitin ang kuwit, tuldok, at paghinto para ihambing ang dalawang salita na pwedeng kapareho ng ibang mga salita (Morrow 2010). Maraming mga teorya ang tungkol sa pinagmulan ng iskriptong Baybayin. Sinasabi ng marami na ay Baybayin raw ay mula sa eskriptong Brahmi na nagmula pa sa sinaunang India. Gayunpaman, hindi pa rin sigurado ang mga tao kung saan talaga ito nagmula (Morrow 2010). May ilang mga teorya ang nagsasabing nagmula daw ang Baybayin sa Cham (Vietnam at Cambodia), iskriptong Malay, at sinaunang Assamese sa Bengal (Morrow 2010). Ang pinakatanyag na teorya ay nagsasabi na nagmula raw ang Baybayin sa isang iskriptong nawala sa Sulawesi na nasa silangang bahagi ng Borneo (Morrow 2010). Iba-iba ang mga dahilan kung papaano nabuo ang mga teoryang ito. Ang pangunahing dahilan ay mula sa orihinal na Baybayin, kung saan walang paraan upang ipakita ang pantig na walang patinig (Ito ay kadalasang nangyayari sa dulo ng salitang tagalog). Karaniwan itong katangian sa wikang Burgis na mula sa Sulawesi (Morrow 2010). Ang lenggwahe ng mga katutubong Pilipino ay pinaniniwalaang nanggaling sa Borneo (o malapit doon). Pero ang paniniwala rin ay bago lang ang Baybayin sa mga katutubo. May ilan ring ag ebidensya na nagpapatunay na ginagamit ang iskriptong ito sa pagsusulat sa Pilipinas. Ang pinakalumang ebidensya ng pagsusulat sa Pilipinas ay isang inskripsyon na hinanap sa isang yungib sa probinsyang Laguna sa Pilipinas (Morrow 2006). Pinetsa ang Inskripsyon sa Binatbat na Tanso ng Laaguna noong 900 CE (Morrow 2006). Ang mga ito ay nagmula pa sa iskriptong Kavi at lumang wika noon ng Malay Napakainteresante nito dahil ipinapakita nito na ang mga sinaunang Pilipino ay hindi talaga isolated. Importante rin ito dahil ipinapakita nito ang posibilidad ng linggwistika sa pagitan ng mga katutubong Pilipino at iba pang mga indibidwal mula sa Timogsilangang Asya. Nagsusulat ang mga katutubong Pilipino at nag-uukit ng mga titik sa kawayan gamit ang isang kutsilyo o iba pang matalim na bagay (Morrow 2010). Hindi sial gumagamit ng pluma o tinta hanggang dumating ang mga kastila, kung saan dahan-dahang nawala ang mga sinaunang panunulat ng mga Pilipino dahil nahirapan silang panatilihin simula ng masakop sila ng mga Kastila. Bukod doon, nabubulok rin ang mga organik na material tulad ng kawayan.
+
+      </p>
+
+      <p>
+         Ang pinakaunang ebidensyang nakalap tungkol sa klase ng panunulat ng mga Pilipino ay mula sa mga Kastila. Ito ay tinatawag na “Doctrina Christiana”, at isinulat ito pagkatapos ng ika-16 na siglo (Wolf, 2005). Katekismo ito (tungkol sa “halagang Kristyano”), at sinulat ang Doctrina gamit ang lenggwaheng Espanyol, Tagalog sa alpabetong Latin, at Tagalog sa Baybayin (Wolf, 2005). Noong unang panahon, ginagamit lang ang Baybayin para sa mga taong Tagalog, ngunit noong isinusulat na ng mga Kastila ang Bibliya, isinulat na nila ito gamit ang wikang Tagalog at Espanyol upag matutunan nila ang wika (Morrow 2010). Binago ng Kastilya ang Baybayin sa pagsasama ng bagong kudlit na krus (na tinawag nilang “sabat”), upang patahimikin ang patinig ng isang titik; halimbawa, bago nila dinagdag ang sabat, sinulat muna nila ang salitang Baybayin katulad ng , at pagkatapos noon, idadagdag nila ang
+      </p>
+      
+      <p>
+         Mga Sinaunang Pamamaraan ng Pagsulat Maraming bagay ang sinulatan ng mga sinaunang Filipino; mga dahon, palapa, saha, banakal at balat ng iba't ibang prutas, ngunit karaniwan ang kawayan. Ang mga panulat naman ay matutulis na patalim o sundang, o ibang maliliit na piraso ng bakal. Sa koleksyon ni Charles R. Boxer, na kilala sa pangalang Boxer Codex, may isang lumang sulat-kamay na ulat mula sa taong 1590. Ipinaliwanag ng di-ipinakilalang manunulat ang sinaunang pamamaraan ng pagsulat, na ginagawa pa rin ng mga tribo sa Mindoro at Palawan hanggang ngayon: Kapag sumusulat sila, ito'y ginagawa sa mga tablang kawayan, (pangkaraniwan ito sa mga naturang pulo) sa balat. Sa paggamit ng ganitong tabla, na kasinglapad ng apat na daliri, hindi sila gumagamit ng tinta sa pagsulat, kundi mga pang-ukit upang guhitan ang rabáw [surface] at balat ng kawayan, at sa gayon sila gumagawa ng mga titik. B6 Kapag inukit na ang mga titik sa kawayan, pinahiran nila ito ng abo upang lalong madaling makita. Ginamit nila ang mga matulis na patpat ng kawayan kasama ng kinulayang dagta ng halaman upang masulatan ang maseselang bagay tulad ng mga dahon. Sapagkat hindi pangmatagalan ang mga ginawang sulatin ng mga sinaunang Filipino, hindi sila gumamit ng lalong matitibay na sulatan tulad ng bato, luwad, o bakal. Nang dumating ang mga Espanyol, nagsimulang gamitin ng mga Filipino ang papel, pluma at tinta.
+      </p>
+
+      <p>
+
+         Ang Pinagmulan ng Baybayin Ang salitang baybayin ay isang katagang pangkalahatan sa wikang Tagalog na tinutukoy ang lahat ng titik na ginagamit sa pagsulat ng isang wika. Ibig sabihin, isang “alpabeto” – subali't mas kahawig ito ng isang "syllabary" o palápantigan. Nakatala itong pangalang ng lumang sulat sa isa sa mga unang talasalitaang inilathala sa Pilipinas, ang Vocabulario de Lengua Tagala noong taong 1613. Ito'y mula sa ugat na “baybay” na nangangahulugang ispeling. Sa mga sulatin ng mga unang Espanyol, ang karaniwang tawag nila sa baybayin ay ang mga “titik o sulat ng mga Tagalog.” Nasabi na sa itaas na ang tawag naman ng mga taga-Bisayas sa baybayin ay “sulat-Moro” dahil ito'y galing sa Maynila na naging daan para sa mga produkto ng mga mangangalakal na Muslim sa mga pulo na ngayon ay kilala sa pangalang Filipinas. Basahan ang tawag sa baybayin sa Bikol at guhit naman ang tawag nila sa mga titik.
+      </p>
+   </div>
+    
+   <br><br><br><br><br><br><br><br>
+   <br><br><br><br><br>
+   
+  
+   
+   <div class="baycon">
+      
+   <div class="tutorial">
+      <a href="https://youtu.be/oLwj1ZYw3vA" target="_blank">
+      <img src="images/baybayintutor.jpg">
+       
+      <p class="ds">Baybayin Tutorial</p>
+     </a>
+   </div>
+      
+    
+   <div class="bayimg">
+      <a href="https://baybayintranslator.net/" target="_blank">
+      <img src="images/translate.jpg">
+      <p class="ds">Baybayin Translator</p>
+      </a>
+   </div>
+</div>
+</body>
+</html>

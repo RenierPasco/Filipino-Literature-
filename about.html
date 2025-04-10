@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/057c4e8012.js" crossorigin="anonymous"></script>
+
+    <style>
+  
+     body{
+        background: linear-gradient(to left, aliceblue, #0c0c0c); 
+            display: flex;
+     }
+
+     .me{
+        width: 40%;
+        height: 600px;
+      
+        margin-top: 9em;
+        margin-left: 7.5em;
+        text-align: center;
+        display: inline-block;
+    
+        }
+
+    .me p{
+        color: aliceblue;
+        text-shadow: 5px 5px 10px #0c0c0c;
+    }
+
+     #greet{
+       font-size: 2em;
+       margin-top: 5em;
+       margin-bottom: 2px;
+
+       animation-name: animate;
+       animation-duration: 2s;
+
+     }
+
+     #myname{
+        font-size: 4em;
+        margin-top: 2px;
+        margin-bottom: 0;
+        color: aliceblue;
+        text-shadow: 5px 5px 10px #0c0c0c;
+        
+        animation-name: animate;
+        animation-duration: 2s;
+        
+     }
+
+     #des{
+        font-size: 1.5em;
+        margin-top: 10px;
+
+        animation-name: animate;
+        animation-duration: 2s;
+     }
+     
+
+     #contact{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+        color: aliceblue;
+
+        animation-name: animate;
+        animation-duration: 2s;
+    }
+    
+    
+    .fa-brands.fa-facebook{
+        font-size: 2.3em;
+        margin-left: 2px;
+        margin-right: 1em;
+        color: rgb(62, 174, 240);
+        transition: 0.5s;
+
+        animation-name: animate;
+        animation-duration: 2s;
+    }
+    
+
+    .fa-brands.fa-facebook:hover{
+        color: rgb(5, 114, 177);
+       
+        animation-name: animate;
+        animation-duration: 2s;
+    }
+
+    .fa-brands.fa-facebook:active{
+        color: rgb(166, 206, 230);
+
+        animation-name: animate;
+        animation-duration: 2s;
+    }
+
+    .fa-solid.fa-envelope{
+        font-size: 2.5em;
+        margin-left: 0;
+        background: linear-gradient(45deg, hsl(0, 69%, 36%), hsl(240, 70%, 41%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        transition: 0.7s;
+
+        animation-name: animate;
+        animation-duration: 2s;
+    }
+    
+    .fa-solid.fa-envelope:hover{
+        background: linear-gradient(45deg, hsl(0, 89%, 46%), hsl(240, 94%, 47%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .fa-solid.fa-envelope:active{
+        background: linear-gradient(45deg, hsl(0, 55%, 57%), hsl(240, 49%, 53%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .bme {
+        font-size: 1.2em;
+        padding: 10px 30px;
+        margin-top: 2em;
+        border-radius: 20px;
+        background-color: #0c0c0c;
+        color: aliceblue;
+
+        animation-name: animate;
+        animation-duration: 2s;
+        
+    }
+
+    .bme:hover{
+        cursor: pointer;
+        box-shadow: 10px 10px 30px black;
+        
+    }
+
+    .bme:active{
+        opacity: 0.9;
+        border-color: lightblue;
+    }
+
+    .picture{
+        display: inline-block;
+        width: 40%;
+    }
+
+    .picture img{
+        width: 65%;
+        margin-left: 15em;
+        margin-top: 13em;
+        border-radius: 100px;
+
+        animation-name: animate;
+        animation-duration: 2s;
+
+        
+    }
+
+    @keyframes animate {
+        from{
+            opacity: 0;
+            
+            scale: 0.5;
+        }
+        
+        to{
+            opacity: 1;
+            
+            scale: 1;
+        }
+        
+    }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+     
+    <div class="me">
+        <p id="greet">
+        Hello! I'm
+        </p>
+        
+        <h2 id="myname">
+        Renier Q. Pasco, 
+        </h2>
+        
+        <p id="des">
+        Kasalukuyan akong second year college IT students sa Our Lady Of Lourdes College (OLLC).
+        </p>
+
+      <hr>
+       <div id="contact">
+      <h3> 
+        CONTACT ME WITH
+      </h3>
+         
+    <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=100010676910936" target="_blank">
+      <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+      <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </div>
+      </div>
+    
+      <a href="moreme.html">
+      <button class="bme">More About Me</button>
+      </a>
+  
+    </div>
+
+    <div class="picture">
+
+        <img src="images/amerikano.jpg">
+    </div>
+
+  
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 800px;
+ 
+ 
+    
+}
+
+#img1{
+   width: 600px;
+   height: 600px;
+   display: inline-block;
+   margin-left: 15em;
+   border-radius: 60px;
+   box-shadow: 20px 20px 20px rgba(43, 44, 44, 0.7), -20px -20px 20px rgba(166, 218, 218, 0.7);
+
+   animation-name: imgdown ;
+   animation-duration: 2s;
+}
+
+@keyframes imgdown {
+    from {transform: translateY(-300px)}
+    
+}
+
+
+#title{
+    font-size:90px;
+    margin-left: 2px;
+    margin-top: 80px;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: rgb(54, 52, 52);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    text-shadow: 10px 10px 50px rgba(7, 7, 7, 0.7);
+    
+   animation-name: textslide;
+   animation-duration: 2s;
+
+}
+
+@keyframes textslide{
+    from {transform: translateX(-300px)}
+    
+}
+
+.par{
+    width: 75%;
+    
+  
+    margin-left: 15em;
+    margin-top: 20em;
+}
+
+p{
+    text-align: center;
+    font-size:2em;
+    line-height: 1.3em;
+   
+}
+
+p:hover{
+    border: 2px solid #0c0c0c;
+    box-shadow: 5px 5px 10px #0c0c0c;
+}
+
+
+#topic {
+    background-color: rgb(135, 158, 151);
+}
+
+#estruk{
+    background-color: rgb(135, 158, 151);
+}
+
+.premean{
+   border: 5px inset #7fffd4;
+    width: 100%;
+
+    animation-name: slideleft;
+    animation-duration: 10s;
+}
+
+@keyframes slideleft {
+from{transform: translateX(-200px)}
+    
+}
+
+.mean2{
+    border: 5px outset #7fffd4;
+    width: 100%;
+
+    animation-name: slideright ;
+    animation-duration: 10s;
+}
+
+
+@keyframes slideright {
+    from{transform: translateX(800px)}
+        
+    }
+
+#ekonomiya{
+    background-color: rgb(135, 158, 151);
+}
+
+.ekomean{
+    border: 5px outset #7fffd4;
+    width: 100%;
+
+    animation-name: slideleft;
+    animation-duration: 8s;
+}
+
+.kulturamean{
+    border: 5px outset #7fffd4;
+    width: 100%;
+
+    animation-name: slideright;
+    animation-duration: 8s;
+}
+
+#culture{
+    background-color: rgb(135, 158, 151);
+}
+
+h2{
+    font-size: 5em;
+    text-align: center;
+}
+
+.img2con{
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 0;
+    margin-left: 15em;
+    border-radius: 10px;
+  
+}
+
+.img3con{
+    display: inline-block;
+    border-radius: 10px;
+    
+    margin-left: 20em;
+}
+
+#img3{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgb(36, 36, 36);
+
+    animation-name: img3right ;
+    animation-duration: 5s;
+}
+
+@keyframes img3right {
+    from{transform:translateX(400px)}
+}
+
+#img2{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgb(36, 36, 36);
+
+    animation-name: img2left;
+    animation-duration: 5s;
+}
+
+@keyframes img2left {
+    from{transform:translateX(-400px)}
+}
+
+.example{
+    
+    height: 900px;
+}
+
+#hal{
+    background-color: rgb(135, 158, 151);
+
+    animation-name: hal;
+    animation-duration: 3s;
+}
+
+@keyframes hal {
+    from{transform: scale(3);}
+    
+}
+
+.imgcontainer{
+    
+    width: 90%;
+}
+.imgcontainer:hover img:not(:hover){
+    filter: blur(10px);
+}
+
+.alamatcon{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sampalok{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+  
+    text-align: center;
+    margin-top: 2em;
+}
+
+.sampalok img{
+    width: 80%;
+    height: 300px;
+   
+    border-radius: 10px;
+
+}
+
+.sampalok img:hover{
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.7);
+    width: 100%;
+}
+
+.alamat{
+    width: 50% ;
+    display: inline-block;
+ 
+    margin-left: 5em;
+    margin-top: 0;
+}
+
+.alamat p{
+    display: inline-block;
+    font-size: 2em;
+}
+
+
+.hudhud{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+  
+    text-align: center;
+    margin-top: 2em;
+}
+
+.sampalok img{
+    width: 80%;
+    height: 300px;
+   
+    border-radius: 10px;
+
+}
+
+.epiko{
+    width: 50% ;
+    display: inline-block;
+
+    margin-left: 5em;
+    margin-top: 0;
+}
+
+.epiko p{
+    display: inline-block;
+    font-size: 2em;
+}
